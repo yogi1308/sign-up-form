@@ -45,3 +45,21 @@
   #root, #__next {
     isolation: isolate;
   }
+
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.form_row {
+    display: flex;
+    gap: 100px; /* add dynamic gap using clamp and vh*/
+}
+
+.form_element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
